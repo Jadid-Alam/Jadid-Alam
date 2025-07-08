@@ -30,6 +30,6 @@ jobs:
     - run: |
         cd repo-info-script
         npm install 
-    - run: node repo-info-script/script.js
+        node script.js
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
