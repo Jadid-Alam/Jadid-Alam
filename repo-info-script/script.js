@@ -47,8 +47,12 @@ async function getLanguages(repoName) {
 }
 
 function getFormattedString(languageStats) {
+    const today = new Date();
 
     return (`
+
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=jwenjian.visitor-badge&left_color=blue&right_color=purple" />
+
 # Jadid Alam
 
 Welcome to my GitHub page! I'm currentlty a Computer Science student at Queen Mary University of London, constantly striving to bridge the gap between academic knowledge and practical application in the world of computer science.
@@ -80,7 +84,11 @@ Throughout my studies and professional experiences, I've had the opportunity to 
 * **LSC Homework Portal (commissioned)**: Developed a website using JavaScript to enhance homework management for over 100 students and teachers. This included implementing a homework calendar for efficient assignment tracking.
 * **FDM Expense App**: Engineered a full-stack expense management system using React.js, Django, and MySQL, which replaced an Excel-based tracking system. This project improved expense claim processing efficiency by 70% through automated validation and structured approval workflows.
 * **1v1 Scramble Game Backend**: Developed a real-time multiplayer game backend using Rust and Web-Sockets, hosted on AWS. Which achieved a 40% reduction in response time compared to a Python implementation, ensuring ultra-low latency gameplay
-    `);
+
+<br/>
+
+Last Auto Update: ${today.getDate()}/${today.getMonth()}/${today.getFullYear()}
+`);
 }
 
 
@@ -107,7 +115,7 @@ const filteredLanguages = Object.fromEntries(
 );
 
 const languageStats = Object.entries(filteredLanguages)
-  .map(([language, value]) => `* **${language}**: ${Math.round(value*1000/totalCount)/10}%`)
+  .map(([language, value]) => `* <img src="https://skillicons.dev/icons?i=${language}"/>: ${Math.round(value*1000/totalCount)/10}%`)
   .join('\n');
 
 await fs.writeFile(
