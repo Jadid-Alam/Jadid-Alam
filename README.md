@@ -1,6 +1,6 @@
 
 
-<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=jwenjian.visitor-badge&left_color=blue&right_color=purple" />
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=Jadid-Alam.visitor-badge&left_color=blue&right_color=purple" />
 
 # Jadid Alam
 
