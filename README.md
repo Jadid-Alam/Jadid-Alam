@@ -8,14 +8,14 @@ Welcome to my GitHub page! I'm currentlty a Computer Science student at Queen Ma
 
 ## Some Language Statistics from my repositories:
 
-* <img src="https://skillicons.dev/icons?i=css"/>: 7.4%
-* <img src="https://skillicons.dev/icons?i=javascript"/>: 12.5%
-* <img src="https://skillicons.dev/icons?i=python"/>: 0.6%
-* <img src="https://skillicons.dev/icons?i=html"/>: 0.1%
-* <img src="https://skillicons.dev/icons?i=java"/>: 4.7%
-* <img src="https://skillicons.dev/icons?i=rust"/>: 38.8%
-* <img src="https://skillicons.dev/icons?i=makefile"/>: 35.7%
-* <img src="https://skillicons.dev/icons?i=llvm"/>: 0.1%
+* **CSS**: 7.4%
+* **JavaScript**: 12.5%
+* **Python**: 0.6%
+* **HTML**: 0.1%
+* **Java**: 4.7%
+* **Rust**: 38.8%
+* **Makefile**: 35.7%
+* **LLVM**: 0.1%
 
 ## My Socials:
 * **Portfolio**: [jadid-alam.com](https://www.jadid-alam.com/)

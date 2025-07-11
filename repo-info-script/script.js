@@ -115,7 +115,7 @@ const filteredLanguages = Object.fromEntries(
 );
 
 const languageStats = Object.entries(filteredLanguages)
-  .map(([language, value]) => `* **language**: ${Math.round(value*1000/totalCount)/10}%`)
+  .map(([language, value]) => `* **${language}**: ${Math.round(value*1000/totalCount)/10}%`)
   .join('\n');
 
 await fs.writeFile(
