@@ -7,7 +7,7 @@ import { get } from "https";
 const accessToken = process.env.ACCESS_TOKEN;
 
 const octokit = new Octokit({
-  auth: "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"
+  auth: accessToken
 })
 
 async function  getPublicRepo() {
@@ -115,7 +115,7 @@ const filteredLanguages = Object.fromEntries(
 );
 
 const languageStats = Object.entries(filteredLanguages)
-  .map(([language, value]) => `* <img src="https://skillicons.dev/icons?i=${language}"/>: ${Math.round(value*1000/totalCount)/10}%`)
+  .map(([language, value]) => `* <img src="https://skillicons.dev/icons?i=${language.toLowerCase()}"/>: ${Math.round(value*1000/totalCount)/10}%`)
   .join('\n');
 
 await fs.writeFile(
