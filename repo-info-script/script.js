@@ -7,7 +7,7 @@ import { get } from "https";
 const accessToken = process.env.ACCESS_TOKEN;
 
 const octokit = new Octokit({
-  auth: accessToken
+  auth: "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"
 })
 
 async function  getPublicRepo() {

@@ -1,18 +1,21 @@
 
+
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=jwenjian.visitor-badge&left_color=blue&right_color=purple" />
+
 # Jadid Alam
 
 Welcome to my GitHub page! I'm currentlty a Computer Science student at Queen Mary University of London, constantly striving to bridge the gap between academic knowledge and practical application in the world of computer science.
 
 ## Some Language Statistics from my repositories:
 
-* **CSS**: 7.4%
-* **JavaScript**: 12.4%
-* **Python**: 0.6%
-* **HTML**: 0.1%
-* **Java**: 4.7%
-* **Rust**: 38.9%
-* **Makefile**: 35.7%
-* **LLVM**: 0.1%
+* <img src="https://skillicons.dev/icons?i=CSS"/>: 7.4%
+* <img src="https://skillicons.dev/icons?i=JavaScript"/>: 12.5%
+* <img src="https://skillicons.dev/icons?i=Python"/>: 0.6%
+* <img src="https://skillicons.dev/icons?i=HTML"/>: 0.1%
+* <img src="https://skillicons.dev/icons?i=Java"/>: 4.7%
+* <img src="https://skillicons.dev/icons?i=Rust"/>: 38.8%
+* <img src="https://skillicons.dev/icons?i=Makefile"/>: 35.7%
+* <img src="https://skillicons.dev/icons?i=LLVM"/>: 0.1%
 
 ## My Socials:
 * **Portfolio**: [jadid-alam.com](https://www.jadid-alam.com/)
@@ -37,4 +40,7 @@ Throughout my studies and professional experiences, I've had the opportunity to 
 * **LSC Homework Portal (commissioned)**: Developed a website using JavaScript to enhance homework management for over 100 students and teachers. This included implementing a homework calendar for efficient assignment tracking.
 * **FDM Expense App**: Engineered a full-stack expense management system using React.js, Django, and MySQL, which replaced an Excel-based tracking system. This project improved expense claim processing efficiency by 70% through automated validation and structured approval workflows.
 * **1v1 Scramble Game Backend**: Developed a real-time multiplayer game backend using Rust and Web-Sockets, hosted on AWS. Which achieved a 40% reduction in response time compared to a Python implementation, ensuring ultra-low latency gameplay
-    
+
+<br/>
+
+Last Auto Update: 11/6/2025
