@@ -34,9 +34,10 @@ jobs:
         cd ..
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git remote set-url origin https://x-access-token:${ACCESS_TOKEN}@github.com/Jadid-Alam/Jadid-Alam.git
+        git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/Jadid-Alam/Jadid-Alam.git
         git add README.md
         git diff --quiet && echo "No changes" || git commit -m "Daily automated update"
         git push origin main
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
