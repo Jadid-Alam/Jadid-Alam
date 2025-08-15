@@ -3,6 +3,9 @@
 
 name: Update ReadMe every midnight
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: '0 0 * * *'
@@ -43,4 +46,4 @@ jobs:
         run: |
           git add .
           git diff-index --quiet HEAD || git commit -m "Dayly Automated Commit"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git push
