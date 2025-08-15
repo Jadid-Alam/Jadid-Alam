@@ -39,4 +39,4 @@ jobs:
         git diff --quiet && echo "No changes" || git commit -m "Daily automated update"
         git push origin main
       env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
