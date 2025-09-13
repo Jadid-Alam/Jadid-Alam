@@ -10,11 +10,11 @@ Welcome to my GitHub page! I'm currentlty a Computer Science student at Queen Ma
 
 * **CSS**: 5.5%
 * **JavaScript**: 8.7%
-* **Python**: 0.8%
+* **Python**: 0.5%
 * **HTML**: 0.1%
 * **Java**: 3.5%
-* **Rust**: 42.8%
-* **Makefile**: 38.6%
+* **Rust**: 43%
+* **Makefile**: 38.7%
 * **LLVM**: 0.1%
 
 ## My Socials:
@@ -45,4 +45,4 @@ Throughout my studies and professional experiences, I've had the opportunity to 
 
 <br/>
 
-Last Auto Update: 12/8/2025
+Last Auto Update: 13/8/2025
