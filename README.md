@@ -45,4 +45,4 @@ Throughout my studies and professional experiences, I've had the opportunity to 
 
 <br/>
 
-Last Auto Update: 24/11/2025
+Last Auto Update: 25/11/2025
